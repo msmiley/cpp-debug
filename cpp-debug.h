@@ -8,7 +8,7 @@
 //
 // Return a string with a hex dump representation of the provided bytes
 //
-std::string hexDump(const unsigned char* data, int len) {
+std::string hexDump(const unsigned char* data, unsigned int len) {
   std::ostringstream ostr;
   ostr << "===========================================================================\n";
   for (unsigned i = 0; i < len; i += 16) {
@@ -58,7 +58,7 @@ std::string hexDump(const unsigned char* data, int len) {
 //
 // Print a hex dump representation of the given data to stdout.
 //
-void printHexDump(const unsigned char* data, int len) {
+void printHexDump(const unsigned char* data, unsigned int len) {
   std::cout << hexDump(data, len);
 }
 

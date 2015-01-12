@@ -1,25 +1,15 @@
 {
-  "name": "",
+  "name": "cpp-debug",
   "version": "0.1.0",
   "author": "Mike Smiley <mikesmiley@me.com>",
-  "url": "https://github.com/mikesmiley/",
-  "main": "./lib",
-  "repository": "mikesmiley/npm-template.git",
-  "scripts": {
-    "doc": "cake doc",
-    "prepublish": "cake build test doc",
-    "test": "cake test"
-  },
-  "devDependencies": {
-    "docco": "*",
-    "coffee-script": "^1.8.0",
-    "jasmine-node": "^1.14.5"
-  },
-  "gypfile": true,
+  "url": "https://github.com/mikesmiley/cpp-debug",
+  "main": "index.js",
+  "repository": "mikesmiley/cpp-debug.git",
   "dependencies": {
-    "bindings": "~1.2.1"
   },
   "keywords": [
+    "debug",
+    "cpp"
   ],
   "license": "MIT"
 }

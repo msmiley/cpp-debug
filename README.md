@@ -1,6 +1,6 @@
 # cpp-debug
 
-Utilities for debugging Node.js CPP Addons.
+Utilities for debugging Node.js C++ Addons
 
 ## Installation
 
@@ -28,23 +28,23 @@ Add an `include_dirs` section to your project's binding.gyp file so that it rese
 
 Then include `cpp-debug.h` in your addon:
 
-```c
+```cpp
 #include "cpp-debug.h"
 ```
 
 ## Debug Functions
 
-cpp-debug provides the following functions
+cpp-debug provides the following functions for use anywhere in your native addon code:
 
 #### Return a string with a hex dump representation of the provided bytes.
 
-```c
+```cpp
 std::string hexDump(const unsigned char* data, int len)
 ```
 
 #### Print a hex dump representation of the given data to stdout.
 
-```c
+```cpp
 void printHexDump(const unsigned char* data, int len)
 ```
 

@@ -1,6 +1,6 @@
 {
   "name": "cpp-debug",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "author": "Mike Smiley <mikesmiley@me.com>",
   "url": "https://github.com/mikesmiley/cpp-debug",
   "main": "index.js",

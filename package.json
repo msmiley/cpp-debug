@@ -2,9 +2,9 @@
   "name": "cpp-debug",
   "version": "0.1.5",
   "author": "Mike Smiley <mikesmiley@me.com>",
-  "url": "https://github.com/mikesmiley/cpp-debug",
+  "url": "https://github.com/msmiley/cpp-debug",
   "main": "index.js",
-  "repository": "mikesmiley/cpp-debug.git",
+  "repository": "msmiley/cpp-debug.git",
   "dependencies": {},
   "keywords": [
     "debug",
